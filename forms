@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br"
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+<body>
+    <h2>Cadastro</h2>
+
+    <form>
+
+        Nome:<br>
+        <input type="text" id="name" placeholder="Nome completo"name="Nome"><br><br>
+
+    E-mail :<br>
+    <input type="email"  id="e-mail"  placeholder="Digite E-mail" name="email"><br><br>
+
+    Telefone: <br>
+    <input type="tel" id="telefone" placeholder="Digite Telefone" name="celular"><br><br>
+
+   data de nacimento:<br>
+    <input type="date" id="data de nacimento" name="data"><br><br>
+
+Sexo:<br>
+<select> name="sexo"
+ <option>Selecione</option>
+<option>Femimino</option>
+<option>Masculino</option>
+    </select><br><br>
+
+Cep:<br>
+<input type="text" id="cep"  placeholder="Digite CEP" name="cep"><br><br>
+
+Endereco:<br>
+<input type="text" id="endereco" placeholder="Digite Endereco]" name="Endereco"><br><br>
+
+Numero:<br>
+<input type="number" id="numero" placeholder="(xx)xxxxxxxxxx" name="numero"><br><br>
+
+Complemento:<br>
+<input type="text" id="completo" placeholder="Digite complemento" name="complemento"><br><br>
+
+Bairro:<br>
+<input type="text" id="bairro" placeholder="Digite o bairro" name="Bairro"><br><br>
+
+Cidade:<br>
+<input type="text" id="cidade" placeholder="Digite Cidade" name="Cidade"><br><br>
+
+Estado:<br>
+<select name="estado" id="estado" required>
+    <option>Selecione</option>
+<option>AC</option>
+    <option>AL</option>
+    <option>AP</option>
+    <option>AM</option>
+    <option>BA</option>
+    <option>CE</option>
+    <option>DF</option>
+    <option>ES</option>
+    <option>GO</option>
+    <option>MA</option>
+    <option>MT</option>
+    <option>MS</option>
+    <option>MG</option>
+    <option>PA</option>
+    <option>PB</option>
+    <option>PR</option>
+    <option>PE</option>
+    <option>PI</option>
+    <option>RJ</option>
+    <option>RN</option>
+    <option>RS</option>
+    <option>RO</option>
+    <option>RR</option>
+    <option>SC</option>
+    <option>SP</option>
+    <option>SE</option>
+    <option>TO</option>> 
+</select><br><br>
+
+Pais:<br>
+<select name="Pais" id="pais" required>
+  <option> Selecione </option>
+  <option> Brasil </option>
+  <option> Portugal </option>
+  <option> Estados Unidos </option>
+  <option> Canadá </option>
+  <option> México </option>
+  <option> Argentina </option>
+  <option> Espanha </option>
+  <option> França </option>
+  <option> Alemanha </option>
+  <option> Itália </option>
+  <option> Japão </option>
+  <option> China </option>
+  <option> Índia </option>
+  <option> Angola </option>
+  <option> Moçambique </option>
+</select><br><br>
+
+Assunto:<br>
+<input type="text" id="assunto" placeholder="Digite Assunto" name="Assunto"><br><br>
+
+Deixe a sua mensagem:<br>
+<textarea rows="4" cols="50" placeholder="Escreva sua mensagem..."></textarea><br><br>
+
+
+
+<label>Selecione uma cor:</label><br><br>
+
+<label>
+  <input type="radio" name="cores" value="vermelho">
+  Vermelho
+</label><br>
+
+<label>
+  <input type="radio" name="cores" value="verde">
+  Verde
+</label><br>
+
+<label>
+<input type="radio" name="cores" value="Roxo">
+Roxo
+</label><br>
+
+<label>Selecione seus hobbies:</label><br><br>
+
+<input type="checkbox" id="futebol" name="hobbies" value="futebol">
+<label for="futebol">Futebol</label><br>
+
+<input type="checkbox" id="musica" name="hobbies" value="musica">
+<label for="musica">Música</label><br>
+
+<input type="checkbox" id="leitura" name="hobbies" value="leitura">
+<label for="leitura">Leitura</label><br>
+
+<input type="checkbox" id="games" name="hobbies" value="games">
+<label for="games">Games</label><br><br>
+
+ <button type="submit">Enviar</button>
+
+    </form>
+</body>
